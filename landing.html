@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #333;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .image-box {
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-box img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+        <p>Your one-stop destination for amazing content</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>About Us</h2>
+            <p>This is a dynamic and innovative software company dedicated to shaping the future of technology. With a passion for creativity and a commitment to excellence, we specialize in delivering cutting-edge software solutions that empower businesses and individuals to achieve their goals.</p>
+        </div>
+
+        <div class="section">
+            <h2>Our Services</h2>
+            <p> Our team of experienced developers specializes in crafting tailor-made software solutions to meet the unique needs and challenges of your business. We create robust, scalable, and efficient software applications that drive innovation and efficiency.</p>
+        </div>
+
+        <div class="section">
+            <h2>Our Work</h2>
+            <div class="image-container">
+                <div class="image-box">
+                    <img src="image1.jpg" alt="Image 1">
+                </div>
+                <div class="image-box">
+                    <img src="image2.jpg" alt="Image 2">
+                </div>
+                <div class="image-box">
+                    <img src="image3.jpg" alt="Image 3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 Simple Landing Page
+    </footer>
+</body>
+</html>
